@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Chelsea+Market&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+*{
+    box-sizing:border-box;
+}
+body {
+    margin:0;
+    padding:30px 0 0 0;
+}
+#top{
+    position:fixed;
+    background-color:white;
+    width:100%;
+    top:0;
+    height:40px;
+    display:flex;
+    align-items:center;
+    padding-left:15px;
+    box-shadow:0 2px 4px gray;
+    font-family: 'Chelsea Market', cursive;
+    font-size:1.3pc;
+}
+#cont{
+    width:80%;
+    height:auto;
+    padding:20px;
+    background-color:white;
+    margin:40px auto;
+    border-radius:10px;
+    box-shadow:2px 2px 7px gray;
+}
+#illu_nm{
+    margin-bottom:15px;
+    font-size:1.05pc;
+    font-family: 'Chelsea Market', cursive;
+    padding: 5px 5px;
+    width:auto;
+    border-left:solid lime 5px;
+    display:inline-block;
+    background-color:none;
+    overflow:scroll;
+}
+img{
+    display:block;
+    width:100%;
+}
+#txt{
+    margin-top:10px;
+    font-family: 'Patrick Hand', cursive;
+    padding:0 5px;
+    border-left:solid lime 5px;
+    font-size:0.8pc;
+}
